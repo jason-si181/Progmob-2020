@@ -13,12 +13,12 @@ import com.example.myfirstapp.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RecyclerActivity extends AppCompatActivity {
+public class CardViewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recycler);
+        setContentView(R.layout.activity_card_view);
 
         RecyclerView rv = (RecyclerView)findViewById(R.id.cvLatihan);
         MahasiswaRecyclerAdapter mahasiswaRecyclerAdapter;
@@ -39,10 +39,10 @@ public class RecyclerActivity extends AppCompatActivity {
         mahasiswaList.add(m4);
         mahasiswaList.add(m5);
 
-        mahasiswaRecyclerAdapter = new MahasiswaRecyclerAdapter(RecyclerActivity.this);
+        mahasiswaRecyclerAdapter = new MahasiswaRecyclerAdapter(CardViewActivity.this);
         mahasiswaRecyclerAdapter.setMahasiswaList(mahasiswaList);
 
-        rv.setLayoutManager(new LinearLayoutManager(RecyclerActivity.this));
+        rv.setLayoutManager(new LinearLayoutManager(CardViewActivity.this));
         rv.setAdapter(mahasiswaRecyclerAdapter);
     }
 }
