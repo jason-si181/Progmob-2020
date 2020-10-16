@@ -1,11 +1,11 @@
-package com.example.myfirstapp.Model;
+package ukdw.com.progmob_2020.Model;
 
-public class Mahasiswa {
+public class MahasiswaDebugging {
     private String nama;
     private String nim;
     private String notelp;
 
-    public Mahasiswa(String nama, String nim, String notelp) {
+    public MahasiswaDebugging(String nama, String nim, String notelp) {
         this.nama = nama;
         this.nim = nim;
         this.notelp = notelp;

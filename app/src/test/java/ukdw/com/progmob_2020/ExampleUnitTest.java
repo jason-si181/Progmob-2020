@@ -1,4 +1,4 @@
-package com.example.myfirstapp;
+package ukdw.com.progmob_2020;
 
 import org.junit.Test;
 

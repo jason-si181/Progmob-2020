@@ -1,4 +1,4 @@
-package com.example.myfirstapp.Adapter;
+package ukdw.com.progmob_2020.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,13 +9,13 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myfirstapp.Model.Mahasiswa;
-import com.example.myfirstapp.R;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class MahasiswaRecyclerAdapter extends RecyclerView.Adapter<MahasiswaRecyclerAdapter.ViewHolder> {
+import ukdw.com.progmob_2020.Model.Mahasiswa;
+import ukdw.com.progmob_2020.R;
+
+public class MahasiswaRecyclerAdapter extends RecyclerView.Adapter<MahasiswaRecyclerAdapter.ViewHolder>{
     private Context context;
     private List<Mahasiswa> mahasiswaList;
 

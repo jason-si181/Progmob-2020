@@ -1,4 +1,4 @@
-package com.example.myfirstapp.Pertemuan2;
+package ukdw.com.progmob_2020.Pertemuan2;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -6,12 +6,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
-import com.example.myfirstapp.Adapter.MahasiswaRecyclerAdapter;
-import com.example.myfirstapp.Model.Mahasiswa;
-import com.example.myfirstapp.R;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import ukdw.com.progmob_2020.Adapter.MahasiswaRecyclerAdapter;
+import ukdw.com.progmob_2020.Model.Mahasiswa;
+import ukdw.com.progmob_2020.R;
 
 public class CardViewActivity extends AppCompatActivity {
 

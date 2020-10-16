@@ -1,4 +1,4 @@
-package com.example.myfirstapp;
+package ukdw.com.progmob_2020;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,9 +9,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.myfirstapp.Pertemuan2.CardViewActivity;
-import com.example.myfirstapp.Pertemuan2.ListActivity;
-import com.example.myfirstapp.Pertemuan2.RecyclerActivity;
+import ukdw.com.progmob_2020.Pertemuan2.CardViewActivity;
+import ukdw.com.progmob_2020.Pertemuan2.ListActivity;
+import ukdw.com.progmob_2020.Pertemuan2.RecyclerActivity;
+import ukdw.com.progmob_2020.Pertemuan4.DebuggingActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Variable
+        //variable
         final TextView txtView = (TextView)findViewById(R.id.mainActivityTextView);
         Button myBtn = (Button)findViewById(R.id.button1);
         final EditText myEditText = (EditText)findViewById(R.id.editText1);
@@ -32,7 +33,10 @@ public class MainActivity extends AppCompatActivity {
         Button btnRecycler = (Button)findViewById((R.id.buttonRecyclerView));
         Button btnCard = (Button)findViewById((R.id.buttonCardView));
 
-        //Action
+        //pertemuan 4
+        Button btnDebug = (Button)findViewById(R.id.btnDebugging);
+
+        //action
         txtView.setText(R.string.text_hello_world);
         myBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,6 +82,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, CardViewActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnDebug.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, DebuggingActivity.class);
                 startActivity(intent);
             }
         });

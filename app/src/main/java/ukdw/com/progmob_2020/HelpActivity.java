@@ -1,6 +1,7 @@
-package com.example.myfirstapp;
+package ukdw.com.progmob_2020;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.widget.TextView;
 

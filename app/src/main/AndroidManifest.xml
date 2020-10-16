@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myfirstapp">
+    package="ukdw.com.progmob_2020">
 
     <application
         android:allowBackup="true"
@@ -12,6 +12,7 @@
         <activity android:name=".Pertemuan2.CardViewActivity"></activity>
         <activity android:name=".Pertemuan2.RecyclerActivity" />
         <activity android:name=".Pertemuan2.ListActivity" />
+        <activity android:name=".Pertemuan4.DebuggingActivity" />
         <activity android:name=".TrackerActivity" />
         <activity android:name=".HelpActivity" />
         <activity android:name=".MainActivity">

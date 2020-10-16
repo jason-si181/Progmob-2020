@@ -1,4 +1,4 @@
-package com.example.myfirstapp;
+package ukdw.com.progmob_2020;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.myfirstapp", appContext.getPackageName());
+        assertEquals("ukdw.com.progmob_2020", appContext.getPackageName());
     }
 }
